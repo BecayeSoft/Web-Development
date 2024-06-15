@@ -1,0 +1,65 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.task-complete {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.task-input {
+    display: inline-block;
+    width: 90%;
+    height: 50px;
+    margin: 7px 0;
+    /* padding: 5px; */
+    border: 1px solid #ccc;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.task-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Use Angular like colors */
+.task-btn-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.task-btn-warn {
+    color: #fff;
+    background-color: #ac3121;
+}
+
+.task-btn-accent {
+    color: #fff;
+    background-color: #c77527;
+}
+
+.task-form-error-msg {
+    color: #ac3121;
+}

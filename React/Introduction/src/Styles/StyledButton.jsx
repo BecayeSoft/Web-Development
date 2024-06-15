@@ -1,6 +1,6 @@
 import styles from './Button.module.css'
 
-function Button() {
+function StyledButton() {
 
     // Alternative styling
     // Use the "style" property if you want to apply
@@ -10,8 +10,11 @@ function Button() {
     }
     
     return (
-        <button className={styles.btn} style={inlineStyles}>Click me</button>
+        <>
+            <button className={styles.btn + ' ' + styles['btn-primary']}>Click me</button>
+            <button style={inlineStyles}>Click me</button>
+        </>
     )   
 }
 
-export default Button
+export default StyledButton

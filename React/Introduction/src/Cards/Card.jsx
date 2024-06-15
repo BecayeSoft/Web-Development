@@ -1,5 +1,5 @@
-import profilePic from './assets/profile.jpg'
-import Button from './Button/Button'
+import profilePic from '../assets/profile.jpg'
+import Button from '../Styles/StyledButton'
 
 function Card() {
     return (
