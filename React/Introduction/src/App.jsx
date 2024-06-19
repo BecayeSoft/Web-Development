@@ -9,14 +9,16 @@ import UserGreeting from "./Conditions/UserGreeting.jsx"
 import List from "./Lists/List.jsx"
 import Button from "./Events/Button.jsx"
 import ProfilePicture from "./Events/ProfilePicture.jsx"
-import Ninjutsu from "./Hooks/Ninjutsu.jsx"
+import Ninjutsu from "./Hooks/useState/Ninjutsu.jsx"
 import OnChange from "./Events/OnChange.jsx"
 import ColorPicker from "./Exercises/ColorPicker.jsx"
 import Counter from "./Updater Functions/Counter.jsx"
-import FavoriteCar from "./Objects State/FavoriteCar.jsx"
+import FavoriteCar from "./Objects and Array States/Objects State/FavoriteCar.jsx"
 import StyledButton from "./Styles/StyledButton.jsx"
-import SmartHome from "./Arrays State/SmartHome.jsx"
-import AutoDealer from "./Arrays of Objects/AutoDealer.jsx"
+import SmartHome from "./Objects and Array States/Arrays State/SmartHome.jsx"
+import AutoDealer from "./Objects and Array States/Arrays of Objects/AutoDealer.jsx"
+import SmartCar from "./Hooks/useEffect/SmartCar.jsx"
+import SmartWindow from "./Hooks/useEffect/SmartWindow.jsx"
 
 function App() {
 
@@ -74,7 +76,11 @@ function App() {
 
 			{/* <SmartHome /> */}
 
-			<AutoDealer />
+			{/* <AutoDealer /> */}
+
+			{/* <SmartCar /> */}
+
+			<SmartWindow />
 
 			{/* <Footer /> */}
 		</>
